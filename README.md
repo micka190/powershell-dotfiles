@@ -18,3 +18,7 @@ The following need to be installed:
 * Windows Terminal
 * Git for Windows
 * JetBrains Mono Font (No ligature version)
+
+### TODO
+
+* Automatically configure NeoVim
