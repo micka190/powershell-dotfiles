@@ -11,6 +11,10 @@
   * Basic appearance tweaks
   * Keybindings
 
+## Usage
+
+Run the `scripts/install-PowerShellDotFiles.ps1` file from a terminal or command prompt.
+
 ## Requirements
 
 The following need to be installed:
@@ -19,6 +23,6 @@ The following need to be installed:
 * Git for Windows
 * JetBrains Mono Font (No ligature version)
 
-### TODO
+## TODO
 
 * Automatically configure NeoVim
