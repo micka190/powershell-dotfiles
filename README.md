@@ -10,3 +10,11 @@
   * Only show Ubuntu and PowerShell Core
   * Basic appearance tweaks
   * Keybindings
+
+## Requirements
+
+The following need to be installed:
+
+* Windows Terminal
+* Git for Windows
+* JetBrains Mono Font (No ligature version)
