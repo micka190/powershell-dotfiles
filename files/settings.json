@@ -16,7 +16,7 @@
         {
             // Put settings here that you want to apply to all profiles.
             "colorScheme": "Dracula",
-            "fontFace": "JetBrains Mono NL",
+            "fontFace": "JetBrainsMono NF",
             "useAcrylic": true,
             "acrylicOpacity": 0.75
         },
