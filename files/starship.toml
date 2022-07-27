@@ -1,0 +1,52 @@
+format = """
+$username\
+$fill\
+$directory \
+$git_branch$git_status \
+$nodejs\
+$dotnet\
+$cmd_duration\
+$line_break\
+$character"""
+
+[fill]
+symbol = " "
+
+[directory]
+format = "[](fg:blue)[ $path]($style)[](fg:blue)"
+style = "fg:purple bg:blue"
+
+[git_branch]
+format = "[](fg:blue)[$symbol $branch]($style)"
+style = "fg:bright-white bg:blue"
+symbol = ""
+
+[git_status]
+format = "[[(*$conflicted$untracked$modified$staged$renamed$deleted)](fg:yellow bg:blue)($ahead_behind$stashed)]($style)[](fg:blue)"
+style = "fg:bright-white bg:blue"
+stashed = "≡"
+
+[nodejs]
+format = "[](fg:bright-green)[$symbol $version]($style)[](fg:bright-green)"
+style = "fg:black bg:bright-green"
+symbol = ""
+
+[dotnet]
+format = "[](fg:bright-green)[$symbol $version]($style)[](fg:bright-green)"
+style = "fg:black bg:bright-green"
+symbol = ""
+
+[cmd_duration]
+format = " [](fg:blue)[took $duration ]($style)[](fg:blue)"
+style = "fg:yellow bg:blue"
+min_time = 1_000
+
+[username]
+format = "[](fg:blue)[$user]($style)[](fg:blue)"
+style_user = "fg:yellow bg:blue"
+style_root = "italic fg:red bg:blue"
+
+[character]
+format = "[$symbol]($style) "
+success_symbol = "[](fg:blue)[❯](fg:bright-blue bg:blue)[](fg:blue)"
+error_symbol = "[](fg:blue)[❯](fg:red bg:blue)[](fg:blue)"
